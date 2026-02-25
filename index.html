@@ -1,105 +1,228 @@
 <!DOCTYPE html>
-<html>
-<!-- <link rel="stylesheet" type="text/css" href="./assets/css/index.css"> -->
-<!-- <link rel="stylesheet" href="./assets/css/myriad-pro/style.css" type="text/css" charset="utf-8"> -->
-<!-- <link rel="stylesheet" href="./assets/css/league-gothic/webfonts/stylesheet.css" type="text/css" charset="utf-8"> -->
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="./src/js/index.js"></script>
-
-
-<!-- LANDING PAGE -->
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quinton Dang — Senior Technical Product Manager</title>
+  <meta name="description" content="Quinton Dang — Senior Technical PM/TPM with 10 years of engineering experience at Square and Optimizely." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+</head>
 <body>
-    <h1>Website is under construction.</h1>
-    <div class='container'>
 
-    <a href="quintondang.github.io"> Refresh page </a>
+  <!-- ============================================================
+       Nav
+       ============================================================ -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <span class="nav__wordmark">Quinton Dang</span>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <!-- ============================================================
+       Hero
+       ============================================================ -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__name">Quinton Dang</h1>
+      <p class="hero__title">Senior Technical Product Manager</p>
+      <p class="hero__tagline">10 years of engineering expertise, now driving product strategy.</p>
+      <div class="hero__ctas">
+        <a href="https://www.linkedin.com/in/quintonddang/" class="btn btn--outline" target="_blank" rel="noopener">
+          <!-- LinkedIn icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/quintondang" class="btn btn--outline" target="_blank" rel="noopener">
+          <!-- GitHub icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:quintonddang@gmail.com" class="btn btn--outline">
+          <!-- Email icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+        <a href="./resume.pdf" class="btn btn--primary" download>
+          <!-- Download icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
 
+  <!-- ============================================================
+       About
+       ============================================================ -->
+  <section id="about" class="section section--alt">
+    <div class="container">
+      <p class="section-title">About</p>
+      <div class="about__grid">
+        <div class="about__narrative">
+          <p>
+            I spent a decade as a software engineer building products used by millions — design systems at Square, frontend infrastructure at Optimizely — and I've never stopped thinking like a product person. I've owned roadmaps, written PRDs, aligned cross-functional stakeholders, and shipped features that moved the needle on adoption and accessibility compliance.
+          </p>
+          <p>
+            What sets me apart as a TPM candidate is the depth I bring to technical conversations. I can read a pull request, reason about API contracts, and hold my own in architecture discussions — which means I can de-risk estimates, unblock engineers, and translate complexity into crisp business context for leadership, all without becoming a bottleneck.
+          </p>
+          <p>
+            I'm now channeling that engineering foundation into product strategy full-time: defining the "what" and "why," partnering with design and engineering to ship the "how," and building the kind of platform trust that scales teams.
+          </p>
+        </div>
+        <div>
+          <div class="competencies-grid">
+            <div class="competency-card">
+              <div class="competency-card__title">Product Strategy</div>
+              <div class="competency-card__tags">Roadmap · RICE · Risk</div>
+            </div>
+            <div class="competency-card">
+              <div class="competency-card__title">Platform &amp; DX</div>
+              <div class="competency-card__tags">Design Systems · API · Components</div>
+            </div>
+            <div class="competency-card">
+              <div class="competency-card__title">Stakeholder Mgmt</div>
+              <div class="competency-card__tags">Eng · Legal · UX · Marketing</div>
+            </div>
+            <div class="competency-card">
+              <div class="competency-card__title">Technical Depth</div>
+              <div class="competency-card__tags">React · WCAG 2.1 · A/B Testing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ============================================================
+       Experience
+       ============================================================ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="section-title">Experience</p>
+      <div class="experience__list">
 
-    <!--
-        <div class='navbar'>
-            <div id='tab-home' class='tab'>Home</div>
-            <div id='tab-project' class='tab'>Projects</div>
-            <div id='tab-contact' class='tab'>Contact Me</div>
+        <!-- Square -->
+        <div class="exp-card">
+          <div class="exp-card__header">
+            <span class="exp-card__company">Square</span>
+            <span class="exp-card__dates">Nov 2018 – Nov 2025</span>
+          </div>
+          <div class="exp-card__role">Senior Software Engineer &amp; Product Owner, Market Design System</div>
+          <ul class="exp-card__bullets">
+            <li>Drove end-to-end product ownership of the Market Design System — a shared component library used across Square's seller-facing products — setting quarterly roadmaps, writing RFCs, and coordinating releases across 12+ consuming teams.</li>
+            <li>Championed WCAG 2.1 AA accessibility compliance as a first-class product requirement, leading the initiative that brought Market's component suite to full compliance and reducing bug escalations by 40%.</li>
+            <li>Partnered with Design, Legal, and Marketing stakeholders to align on component APIs and visual language, ensuring the system scaled from a single product line to a company-wide design platform.</li>
+            <li>Owned the migration from legacy Ember components to a modern React + Web Components architecture, delivering a phased plan that minimized disruption while unblocking six dependent product teams.</li>
+            <li>Defined and tracked adoption metrics using internal analytics and Storybook instrumentation, growing active component usage by 3× over two years and reducing UI inconsistency bugs across Square's app ecosystem.</li>
+            <li>Acted as the primary technical liaison between the platform team and senior engineering leadership, translating system-level complexity into executive-ready updates and risk assessments.</li>
+          </ul>
         </div>
 
-        <div id='view' class='view'>
-            <div class='view-text'>
-                Hi there!
-            </div>
+        <!-- Optimizely -->
+        <div class="exp-card">
+          <div class="exp-card__header">
+            <span class="exp-card__company">Optimizely</span>
+            <span class="exp-card__dates">June 2015 – Oct 2018</span>
+          </div>
+          <div class="exp-card__role">Software Engineer (Frontend / Product)</div>
+          <ul class="exp-card__bullets">
+            <li>Built and shipped core features of the Optimizely web experimentation editor, enabling non-technical marketers to create and deploy A/B tests across client sites — directly supporting the product's self-serve growth motion.</li>
+            <li>Led frontend architecture decisions for the experiment results dashboard, introducing feature flags and incremental rollout patterns that allowed faster iteration without regression risk.</li>
+            <li>Collaborated closely with PM and UX to define user flows for complex experimentation workflows, translating ambiguous product requirements into scoped, testable engineering tasks.</li>
+          </ul>
+        </div>
 
-            <div class='view-image'>
-            </div>
-
-            <div class='view-bio'>
-                <div class='view-bio-nub'></div>
-                Thanks for stopping by! My name is Quinton Dang and I'm currently a UC Berkeley student studying Computer Science with a minor in Asian American Studies. I work to improve everyday as as developer who strives to build programs that serve and provide for underserved communities. In my free time, I enjoy sporadic adventuring, discussing the new Hearthstone meta, and analyzing the quality of TV shows by how much "character development" I perceive them to have.
-            </div> -->
-
-            <!--
-            <div class='button'>
-                Check me out!
-            </div>
-          -->
-        <!-- </div> -->
-
-
-
-        <!-- PROJECTS PAGE -->
-
-<!--         <div class='projects-container'>
-            <div class='projects-title'>
-                Project Work
-            </div>
-            <div class='projects-box'>
-                <div class='projects-name'>Map Reduce Word Co-Occurrence Analyzer</div>
-                <div class='projects-date'>Fall 2013</div>
-                <div class='projects-info'>
-                    <ul>
-                        <li>Implemented a Map Reduce program that determined the co-occurrences of two words in text using Java</li>
-                        <li>Utilized the Apache Hadoop framework, implemented a custom Writable class to use within the program</li>
-                        <li>Created several mass data jobs with the program on the cloud using EC2 servers, analyzed program efficiency</li>
-                    </ul>
-                </div>
-            </div>
-            <div class='projects-box'>
-                <div class='projects-name'>Image Processing and Optimization</div>
-                <div class='projects-date'>Fall 2013</div>
-                <div class='projects-info'>
-                    <ul>
-                        <li>Optimized an image processor in C utilizing SSE vectorization, loop unrolling, loop ordering, caching, cache blocking, register blocking, and the OpenMP API</li>
-                    </ul>
-                </div>
-            </div>
-            <div class='projects-box'>
-                <div class='projects-name'>MIPS Instruction Set Emulator</div>
-                <div class='projects-date'>Fall 2013</div>
-                <div class='projects-info'>
-                    <ul>
-                        <li>Implemented a MIPS simulator, implementing all functions of MIPS as C code
-                        </li>
-                        <li>Thoroughly created and tested extensive MIPS assembly test code, especially for memory loading functions</li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
-
-
-
-        <!-- CONTACT ME PAGE -->
-
-        <!-- div class='contactme-container'>
-            <div class='contactme-title'>Interested? Contact me!
-            </div>
-            <div class='contactme-box'>E-mail: qdang16@berkeley.edu</div>
-            <div class='contactme-box'>Phone: (714)717-5868</div>
-            <div class='contactme-box'><a href="http://www.linkedin.com/pub/quinton-dang/75/259/8a6">LinkedIn</a>
-            </div>
-        </div> -->
-
+      </div>
     </div>
-</body>
+  </section>
 
+  <!-- ============================================================
+       Skills & Education
+       ============================================================ -->
+  <section id="skills" class="section section--alt">
+    <div class="container">
+      <p class="section-title">Skills &amp; Education</p>
+      <div class="skills-edu__grid">
+
+        <!-- Skills -->
+        <div>
+          <div class="skills__group">
+            <div class="skills__group-label">Frameworks</div>
+            <div class="skills__pills">
+              <span class="pill">React</span>
+              <span class="pill">TypeScript</span>
+              <span class="pill">Web Components</span>
+              <span class="pill">Ember</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <div class="skills__group-label">Tools</div>
+            <div class="skills__pills">
+              <span class="pill">Linear</span>
+              <span class="pill">Storybook</span>
+              <span class="pill">Figma</span>
+              <span class="pill">Vitest</span>
+              <span class="pill">SQL</span>
+            </div>
+          </div>
+          <div class="skills__group">
+            <div class="skills__group-label">Methods</div>
+            <div class="skills__pills">
+              <span class="pill">WCAG 2.1 AA</span>
+              <span class="pill">RICE Prioritization</span>
+              <span class="pill">A/B Testing</span>
+              <span class="pill">Feature Flags</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <div class="edu-card">
+            <div class="edu-card__school">UC Berkeley</div>
+            <div class="edu-card__degree">B.A. Computer Science</div>
+            <div class="edu-card__year">Class of 2015</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       Footer / Contact
+       ============================================================ -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <h2 class="footer__heading">Let's connect</h2>
+      <div class="footer__links">
+        <a href="https://www.linkedin.com/in/quintonddang/" class="footer__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/quintondang" class="footer__link" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:quintonddang@gmail.com" class="footer__link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+      </div>
+      <p class="footer__copy">&copy; 2026 Quinton Dang</p>
+    </div>
+  </footer>
+
+</body>
 </html>
